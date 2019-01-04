@@ -141,11 +141,4 @@ sessions <- paste0("l", str_pad(as.character(1:13), 2, pad = "0"))
 sched <- sched %>%
   bind_cols(lapply(sessions, get) %>%  bind_rows()) 
 
-sched %>%
-  mutate(date = format(date, "%b %d")) %>%
-  select(session, date, topics, lab, paper, reading, notes) %>%
-  knitr:::kable(., "markdown",
-                col.names = c("Class", "Date", "Topics", "Paper",
-                              "Lab", "Reading", "Notes")
-  )
 

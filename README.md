@@ -1,4 +1,4 @@
-**This syllabus is effective as of Friday, January 04, 2019 at 06:05
+**This syllabus is effective as of Friday, January 04, 2019 at 06:07
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
@@ -251,7 +251,7 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Class | Date   | Topics                                                                                                       | Paper                                                                                                          | Lab     | Reading                             | Notes                                     |
+| Class | Date   | Topics                                                                                                       | Lab                                                                                                            | Paper   | Reading                             | Notes                                     |
 | ----: | :----- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------ | :---------------------------------- | :---------------------------------------- |
 |     1 | Jan 09 | Course Overview, Big Data, Cloud Computing                                                                   | Create cloud accounts, create GitHub account, provide account information to Professors                        |         |                                     |                                           |
 |     2 | Jan 14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     | Setup environment, create SSH keys, start and connect to an instance in the cloud                              | paper 1 |                                     | A1 released (Python script) - due xxxx    |

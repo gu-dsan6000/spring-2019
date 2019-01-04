@@ -161,8 +161,8 @@ sched %>%
   mutate(date = format(date, "%b %d")) %>%
   select(session, date, topics, lab, paper, reading, notes) %>%
   knitr:::kable(., "markdown",
-                col.names = c("Class", "Date", "Topics", "Paper",
-                              "Lab", "Reading", "Notes")
+                col.names = c("Class", "Date", "Topics", "Lab",
+                              "Paper", "Reading", "Notes")
   )
 
 ``` 
