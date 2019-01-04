@@ -1,4 +1,4 @@
-**This syllabus is effective as of Friday, January 04, 2019 at 05:55
+**This syllabus is effective as of Friday, January 04, 2019 at 06:05
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
@@ -138,9 +138,8 @@ link](http://projects.reficio.org/babun/download).
 
 ## Mac Users (Optional)
 
-I recommend using [iTerm](https://www.iterm2.com/) as another Terminal
-application for your Mac. I’ve been using it for years and I love it.
-This is not required, but truly recommended.
+We recommend using [iTerm](https://www.iterm2.com/) as another Terminal
+application for your Mac. This is not required, but recommended.
 
 ## Credit Cards
 
