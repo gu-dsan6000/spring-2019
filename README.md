@@ -1,4 +1,4 @@
-**This syllabus is effective as of Friday, January 04, 2019 at 06:07
+**This syllabus is effective as of Tuesday, January 08, 2019 at 11:11
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
@@ -10,10 +10,8 @@ PM**
   - **Classroom:** Car Barn 203
   - **Time:** Monday 6:30-9:00pm (except 1/9/19 which meets on a
     Wednesday)
-  - **TA’s:**
-      - TBD
-  - **TA Office Hours:**
-      - TBD
+  - **TA’s:** Jie He (jh2063), Yarou Xu (yx160), Yu Yang (yy491)
+  - **TA Office Hours:** TBD
 
 ## Course Description
 
@@ -40,8 +38,9 @@ time. You will spend 36 hours in instructional time, and approximately
 
 ## Course Objectives
 
-  - Operate big data tools and cloud infrastructure, including Spark,
-    MapReduce, Hadoop and other tools in the big data ecosystem
+  - Operate big data tools and cloud infrastructure, including Spark
+    (with all of Spark’s APIs), MapReduce, Hadoop, Hive, Pig and other
+    tools in the big data ecosystem
   - Recognize and use ancillary tools that support big data processing,
     including git and the Linux command line
   - Setup and manage big data infrastructure and tools in the cloud on
@@ -106,14 +105,10 @@ Books Online” for more information.
   - Bill Chambers, Matei Zaharia (2018). *Spark: The Definitive Guide*.
     O’Reilly Media. ISBN: 9781491912218.
 
-## Additional Recommended Books
+## Additional Recommended Books (Optional)
 
   - Tomasz Drabas, Denny Lee (2017). *Learning Pyspark*. Packt
     Publishing. ISBN: 9781786463708.
-  - Ofer Mendelevitch, Casey Stella, Douglas Eadline (2016). *Practical
-    Data Science with Hadoop and Spark: Designing and Building Effective
-    Analytics at Scale*. Addison-Wesley Professional. ISBN:
-    9780134024141.
   - Krishna Sankar (2016). *Fast Data Processing with Spark 2 - Third
     Edition*. Packt Publishing. ISBN: 9781784392574.
 
@@ -143,10 +138,10 @@ application for your Mac. This is not required, but recommended.
 
 ## Credit Cards
 
-You will need a credit card (not a debit card) to create an account on
-Amazon Web Services. If you do not have a credit card, you may consider
-getting a pre-paid VISA card which you can use as the credit card when
-you create the account.
+You will need a credit card to create an account on Amazon Web Services.
+If you do not have a credit card, you may consider getting a pre-paid
+VISA card which you can use as the credit card when you create the
+account.
 
 # Learning Activities and Evaluation
 
@@ -251,21 +246,21 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Class | Date   | Topics                                                                                                       | Lab                                                                                                            | Paper   | Reading                             | Notes                                     |
-| ----: | :----- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :------ | :---------------------------------- | :---------------------------------------- |
-|     1 | Jan 09 | Course Overview, Big Data, Cloud Computing                                                                   | Create cloud accounts, create GitHub account, provide account information to Professors                        |         |                                     |                                           |
-|     2 | Jan 14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     | Setup environment, create SSH keys, start and connect to an instance in the cloud                              | paper 1 |                                     | A1 released (Python script) - due xxxx    |
-|     3 | Jan 28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model                     | Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces |         | Bengfort & Kim: Chapter 2           |                                           |
-|     4 | Feb 04 | Hadoop Streaming                                                                                             | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                         |         | Bengfort & Kim: Ch. 3               | A2 released (Hadoop Streaming) - due xxxx |
-|     5 | Feb 11 | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | TBD                                                                                                            |         |                                     |                                           |
-|     6 | Feb 25 | Pig and Hive                                                                                                 | Store a dataset in a Hive table, Run and example Pig job                                                       |         | Bengfort & Kim: Ch. 6,8             | A3 released (Hive/Pig) - due xxxx         |
-|     7 | Mar 11 | Spark introduction, Resilient Distributed Datasets, PySpark                                                  | Start a PySpark session, Create RDDs, Operate on RDDs                                                          |         | Chambers & Zaharia: Ch. 1-3, 12, 32 | A4 released (RDD) - due xxxx              |
-|     8 | Mar 18 | SQL Review, Intro to SparkSQL                                                                                | Perform operations on Spark dataframes using SparkSQL                                                          |         | Chambers & Zaharia: Ch. 10          |                                           |
-|     9 | Mar 25 | SparkML, Issues with ML algorithms on large datasets                                                         | Build a model                                                                                                  |         | Chambers & Zaharia: Ch. 24, 25      |                                           |
-|    10 | Apr 01 | Spark Streaming                                                                                              | TBD                                                                                                            |         | Chambers & Zaharia: Ch. 20, 21      |                                           |
-|    11 | Apr 08 | NoSQL                                                                                                        | Store data in a NoSQL data store                                                                               |         |                                     |                                           |
-|    12 | Apr 15 | GraphX API for Spark                                                                                         | Analyze a large graph                                                                                          |         | Chambers & Zaharia: Ch. 30          |                                           |
-|    13 | Apr 29 | Apache Drill, other topics TBD                                                                               |                                                                                                                |         |                                     |                                           |
+| Class | Date   | Topics                                                                                                       | Lab | Paper                                                             | Reading                             | Notes                                                  |
+| ----: | :----- | :----------------------------------------------------------------------------------------------------------- | :-- | :---------------------------------------------------------------- | :---------------------------------- | :----------------------------------------------------- |
+|     1 | Jan 09 | Course Overview, Big Data, Cloud Computing                                                                   |     |                                                                   |                                     |                                                        |
+|     2 | Jan 14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     |     | Jin, Wah, et al. Significance and Challenges of Big Data Research |                                     | A1 released (Python script) - due 1/28                 |
+|     3 | Jan 28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model                     |     | TBD                                                               | Bengfort & Kim: Chapter 2           | Q1 released                                            |
+|     4 | Feb 04 | Hadoop Streaming                                                                                             |     | TBD                                                               | Bengfort & Kim: Ch. 3               | A2 released (Hadoop Streaming) - due 2/19, Q2 released |
+|     5 | Feb 11 | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |     | TBD                                                               |                                     |                                                        |
+|     6 | Feb 25 | Pig and Hive                                                                                                 |     | TBD                                                               | Bengfort & Kim: Ch. 6,8             | A3 released (Hive/Pig) - due 3/11, Q3 released         |
+|     7 | Mar 11 | Spark introduction, Resilient Distributed Datasets, PySpark                                                  |     | TBD                                                               | Chambers & Zaharia: Ch. 1-3, 12, 32 | A4 released (RDD) - due 3/25                           |
+|     8 | Mar 18 | SQL Review, Intro to SparkSQL                                                                                |     | TBD                                                               | Chambers & Zaharia: Ch. 10          | Q4 released                                            |
+|     9 | Mar 25 | SparkML, Issues with ML algorithms on large datasets                                                         |     | TBF                                                               | Chambers & Zaharia: Ch. 24, 25      |                                                        |
+|    10 | Apr 01 | Spark Streaming                                                                                              |     |                                                                   | Chambers & Zaharia: Ch. 20, 21      | A5 released - due xxxx, Q5 released                    |
+|    11 | Apr 08 | NoSQL                                                                                                        |     |                                                                   |                                     |                                                        |
+|    12 | Apr 15 | GraphX API for Spark                                                                                         |     |                                                                   | Chambers & Zaharia: Ch. 30          |                                                        |
+|    13 | Apr 29 | Apache Drill, other topics TBD                                                                               |     |                                                                   |                                     | Mini project due. Q6 in class, closed book             |
 
 **Class will not meet on Jan 21 (MLK Holiday), Feb 18 (President’s Day),
 Mar 04 (Spring Break), Apr 22 (Easter Break).**
