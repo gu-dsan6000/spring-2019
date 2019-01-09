@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Instructors:** Marck Vaisman (mv559 at georgetown.edu), Irina Vayndiner (iv95 at georgetown.edu) 
 - **Classroom:** Car Barn 203
-- **Time:** Monday 6:30-9:00pm (except 1/9/19 which meets on a Wednesday)
+- **Time:** Monday 6:30-9:00pm (except 1/9: Wednesday, and 2/19: Tuesday)
 - **TA's:** Jie He (jh2063), Yarou Xu (yx160), Yu Yang (yy491)
 - **TA Office Hours:** TBD
 
@@ -155,8 +155,6 @@ This calendar is subject to change. We will make make any changes known in advan
 ```{r, echo = FALSE, results="asis"} 
 source("schedule.R")
 sched %>%
-  mutate(date = format(date, "%b %d")) %>%
-  select(session, date, topics, lab, paper, reading, notes) %>%
   knitr:::kable(., "markdown",
                 col.names = c("Class", "Date", "Topics", "Lab",
                               "Paper", "Reading", "Notes")

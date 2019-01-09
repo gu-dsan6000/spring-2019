@@ -1,4 +1,4 @@
-**This syllabus is effective as of Tuesday, January 08, 2019 at 11:11
+**This syllabus is effective as of Wednesday, January 09, 2019 at 03:22
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
@@ -8,8 +8,8 @@ PM**
   - **Instructors:** Marck Vaisman (mv559 at georgetown.edu), Irina
     Vayndiner (iv95 at georgetown.edu)
   - **Classroom:** Car Barn 203
-  - **Time:** Monday 6:30-9:00pm (except 1/9/19 which meets on a
-    Wednesday)
+  - **Time:** Monday 6:30-9:00pm (except 1/9: Wednesday, and 2/19:
+    Tuesday)
   - **TA’s:** Jie He (jh2063), Yarou Xu (yx160), Yu Yang (yy491)
   - **TA Office Hours:** TBD
 
@@ -246,21 +246,22 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Class | Date   | Topics                                                                                                       | Lab | Paper                                                             | Reading                             | Notes                                                  |
-| ----: | :----- | :----------------------------------------------------------------------------------------------------------- | :-- | :---------------------------------------------------------------- | :---------------------------------- | :----------------------------------------------------- |
-|     1 | Jan 09 | Course Overview, Big Data, Cloud Computing                                                                   |     |                                                                   |                                     |                                                        |
-|     2 | Jan 14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     |     | Jin, Wah, et al. Significance and Challenges of Big Data Research |                                     | A1 released (Python script) - due 1/28                 |
-|     3 | Jan 28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model                     |     | TBD                                                               | Bengfort & Kim: Chapter 2           | Q1 released                                            |
-|     4 | Feb 04 | Hadoop Streaming                                                                                             |     | TBD                                                               | Bengfort & Kim: Ch. 3               | A2 released (Hadoop Streaming) - due 2/19, Q2 released |
-|     5 | Feb 11 | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |     | TBD                                                               |                                     |                                                        |
-|     6 | Feb 25 | Pig and Hive                                                                                                 |     | TBD                                                               | Bengfort & Kim: Ch. 6,8             | A3 released (Hive/Pig) - due 3/11, Q3 released         |
-|     7 | Mar 11 | Spark introduction, Resilient Distributed Datasets, PySpark                                                  |     | TBD                                                               | Chambers & Zaharia: Ch. 1-3, 12, 32 | A4 released (RDD) - due 3/25                           |
-|     8 | Mar 18 | SQL Review, Intro to SparkSQL                                                                                |     | TBD                                                               | Chambers & Zaharia: Ch. 10          | Q4 released                                            |
-|     9 | Mar 25 | SparkML, Issues with ML algorithms on large datasets                                                         |     | TBF                                                               | Chambers & Zaharia: Ch. 24, 25      |                                                        |
-|    10 | Apr 01 | Spark Streaming                                                                                              |     |                                                                   | Chambers & Zaharia: Ch. 20, 21      | A5 released - due xxxx, Q5 released                    |
-|    11 | Apr 08 | NoSQL                                                                                                        |     |                                                                   |                                     |                                                        |
-|    12 | Apr 15 | GraphX API for Spark                                                                                         |     |                                                                   | Chambers & Zaharia: Ch. 30          |                                                        |
-|    13 | Apr 29 | Apache Drill, other topics TBD                                                                               |     |                                                                   |                                     | Mini project due. Q6 in class, closed book             |
+| Class | Date       | Topics                                                                                                       | Lab | Paper                                                             | Reading                             | Notes                                                  |
+| ----: | :--------- | :----------------------------------------------------------------------------------------------------------- | :-- | :---------------------------------------------------------------- | :---------------------------------- | :----------------------------------------------------- |
+|     1 | Wed Jan-09 | Course Overview, Big Data, Cloud Computing                                                                   |     |                                                                   |                                     |                                                        |
+|     2 | Mon Jan-14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     |     | Jin, Wah, et al. Significance and Challenges of Big Data Research |                                     | A1 released (Python script) due Jan-28                 |
+|     3 | Mon Jan-28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model                     |     | TBD                                                               | Bengfort & Kim: Chapter 2           | Q1 released                                            |
+|     4 | Mon Feb-04 | Hadoop Streaming                                                                                             |     | TBD                                                               | Bengfort & Kim: Ch. 3               | A2 released (Hadoop Streaming) due Feb-19, Q2 released |
+|     5 | Mon Feb-11 | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |     | TBD                                                               |                                     |                                                        |
+|     6 | Tue Feb-19 | Pig and Hive                                                                                                 |     | TBD                                                               | Bengfort & Kim: Ch. 6,8             | A3 released (Hive/Pig) due Mar-11, Q3 released         |
+|     7 | Mon Feb-25 | Spark introduction, Resilient Distributed Datasets, PySpark                                                  |     | TBD                                                               | Chambers & Zaharia: Ch. 1-3, 12, 32 | A4 released (RDD) due Mar-18                           |
+|     8 | Mon Mar-11 | SQL Review, Intro to SparkSQL                                                                                |     | TBD                                                               | Chambers & Zaharia: Ch. 10          | Q4 released                                            |
+|     9 | Mon Mar-18 | SparkML, Issues with ML algorithms on large datasets                                                         |     | TBD                                                               | Chambers & Zaharia: Ch. 24, 25      |                                                        |
+|    10 | Mon Mar-25 | Spark Streaming                                                                                              |     | TBD                                                               | Chambers & Zaharia: Ch. 20, 21      | A5 released - due xxxx, Q5 released                    |
+|    11 | Mon Apr-01 | NoSQL                                                                                                        |     |                                                                   |                                     |                                                        |
+|    12 | Mon Apr-08 | GraphX API for Spark                                                                                         |     | TBD                                                               | Chambers & Zaharia: Ch. 30          |                                                        |
+|    13 | Mon Apr-15 | Other topics TBD                                                                                             |     | TBD                                                               |                                     |                                                        |
+|    14 | Mon Apr-29 | Other topics TBD                                                                                             |     | TBD                                                               |                                     | Mini project due. Q6 in class, closed book             |
 
 **Class will not meet on Jan 21 (MLK Holiday), Feb 18 (President’s Day),
 Mar 04 (Spring Break), Apr 22 (Easter Break).**
