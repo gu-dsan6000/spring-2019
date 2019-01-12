@@ -17,8 +17,10 @@ knitr::opts_chunk$set(echo = FALSE)
 - **Instructors:** Marck Vaisman (mv559 at georgetown.edu), Irina Vayndiner (iv95 at georgetown.edu) 
 - **Classroom:** Car Barn 203
 - **Time:** Monday 6:30-9:00pm (except 1/9: Wednesday, and 2/19: Tuesday)
-- **TA's:** Jie He (jh2063), Yarou Xu (yx160), Yu Yang (yy491)
-- **TA Office Hours:** TBD
+- **TA's:** 
+  - Jie He (jh2063) Office hours: Wednesday 7:00pm-9:00pm at Car Barn 100 (Grad Student Lounge)
+  - Yarou Xu (yx160) Office hours: Monday 3:30-5:30pm at 185A Car Barn 171
+  - Yu Yang (yy491) Office hours: Thursday 2:00-4:00pm at 185A Car Barn 171
 
 ## Course Description
 

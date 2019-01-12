@@ -41,7 +41,7 @@ l02 <- tibble(
   lab = "",
   paper = "Jin, Wah, et al. Significance and Challenges of Big Data Research",
   reading = "",
-  notes = "A1 released (Python script) due Jan-28"
+  notes = "**A1 (Python script) released** due Jan-28"
 )
 
 
@@ -52,7 +52,7 @@ l03 <- tibble(
   lab = "",
   paper = "TBD",
   reading = "Bengfort & Kim: Chapter 2",
-  notes = "Q1 released "
+  notes = "**A1 (Python script) due today**, **Q1 released** due Feb-11"
 )
 
 l04 <- tibble(
@@ -62,7 +62,7 @@ l04 <- tibble(
   lab = "",
   paper = "TBD",
   reading = "Bengfort & Kim: Ch. 3",
-  notes = "A2 released (Hadoop Streaming) due Feb-19, Q2 released"
+  notes = "**A2 (Hadoop Streaming) & Q2 released** due Feb-19"
 )
 
 
@@ -73,18 +73,18 @@ l05 <-  tibble(
   lab = "",
   #     lab = "TBD",
   reading = "",
-  notes = ""
+  notes = "**Q1 due today**, Irina teaches, Marck is out."
 )
 
 
 l06 <- tibble(
   #  title = "Higher Level APIs",
-  topics = "Pig and Hive",
+  topics = "SQL Review. Pig and Hive",
   #  lab = "Store a dataset in a Hive table, Run and example Pig job",
   paper = "TBD",
   lab = "",
   reading = "Bengfort & Kim: Ch. 6,8",
-  notes = "A3 released (Hive/Pig) due Mar-11, Q3 released"
+  notes = "**A2 (Hadoop Streaming) & Q2 due today**, **A3 (Hive/Pig) & Q3 released** due Mar-11, Marck teaches, Irina is out."
 )
 
 l07 <- tibble(
@@ -94,17 +94,17 @@ l07 <- tibble(
   paper = "TBD",
   lab = "",
   reading = "Chambers & Zaharia: Ch. 1-3, 12, 32",
-  notes = "A4 released (RDD) due Mar-18"
+  notes = "**A4 (RDD) released** due Mar-18"
 )
 
 l08 <- tibble(
   #  title = "SparkSQL",
-  topics = "SQL Review, Intro to SparkSQL",
+  topics = "Spark DataFrames, SparkSQL",
   #  lab = "Perform operations on Spark dataframes using SparkSQL",
   paper = "TBD",
   lab = "",
   reading = "Chambers & Zaharia: Ch. 10",
-  notes = "Q4 released"
+  notes = "**A3 (Hive/Pig) & Q3 due today**, **Q4 released** due Mar-25"
 )
 
 l09 <- tibble(
@@ -114,17 +114,17 @@ l09 <- tibble(
   paper = "TBD",
   lab = "",
   reading = "Chambers & Zaharia: Ch. 24, 25",
-  notes = ""
+  notes = "**A4 (RDD) due today**"
   
 )
 
 l10 <- tibble(
   #  title = "Working with Streaming Datasets",
-  topics = "Spark Streaming",
+  topics = "Spark Streaming, GraphX API",
   lab = "",
   paper = "TBD",
-  reading = "Chambers &  Zaharia: Ch. 20, 21",
-  notes = "A5 released - due xxxx, Q5 released"
+  reading = "Chambers &  Zaharia: Ch. 20, 21, 30",
+  notes = "**A5 & Q5 released** due Apr-8"
   
 )
 
@@ -135,17 +135,17 @@ l11 <- tibble(
   lab = "",
   paper = "",
   reading = "",
-  notes = ""
+  notes = "**Mini project released, due Friday Apr-26**"
   
 )
 
 l12 <- tibble(
   #  title = "Working with Graph Datasets",
-  topics = "GraphX API for Spark",
+  topics = "Other topics TBD",
   lab = "",
   paper = "TBD",
-  reading = "Chambers & Zaharia: Ch. 30",
-  notes = ""
+  reading = "",
+  notes = "**A5 & Q5 due today**"
   
 )
 
@@ -161,11 +161,11 @@ l13 <- tibble(
 
 l14 <-  tibble(
   #  title = "Other tools of interest",
-  topics = "Other topics TBD",
+  topics = "Guest speaker. Wrap Up",
   lab = "",
   paper = "TBD",
   reading = "",
-  notes = "Mini project due. Q6 in class, closed book"
+  notes = "**Q6 in class closed book**"
   
 )
 
