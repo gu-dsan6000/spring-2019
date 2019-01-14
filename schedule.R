@@ -38,7 +38,7 @@ l02 <- tibble(
   #  title = "The Infrastructure of the Cloud",
   topics = "Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review",
   #  lab = "Setup environment, create SSH keys, start and connect to an instance in the cloud",
-  lab = "",
+  lab = "[Setting Up](https://github.com/bigdatateaching/lab-setting-up)",
   paper = "Jin, Wah, et al. Significance and Challenges of Big Data Research",
   reading = "",
   notes = "**A1 (Python script) released** due Jan-28"
