@@ -39,9 +39,9 @@ l02 <- tibble(
   topics = "Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review",
   #  lab = "Setup environment, create SSH keys, start and connect to an instance in the cloud",
   lab = "[Setting Up](https://github.com/bigdatateaching/lab-setting-up)",
-  paper = "Jin, Wah, et al. Significance and Challenges of Big Data Research",
+  paper = "",
   reading = "",
-  notes = "**A1 (Python script) released** due Jan-28"
+  notes = ""
 )
 
 
@@ -49,10 +49,10 @@ l03 <- tibble(
   #  title = "Introduction to Hadoop & MapReduce",
   topics = "Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model",
   #  lab = "Start and connect to a cluster, Run built-in Hadoop examples on cluster, Examine the different user interfaces",
-  lab = "",
-  paper = "TBD",
+  lab = "[Hadoop, HDFS, EMR](https://github.com/bigdatateaching/lab-amazonemr-hdfs)",
+  paper = "Jin, Wah, et al. Significance and Challenges of Big Data Research",
   reading = "Bengfort & Kim: Chapter 2",
-  notes = "**A1 (Python script) due today**, **Q1 released** due Feb-11"
+  notes = "**A1 (Python script) & Q1 released** due Feb-11"
 )
 
 l04 <- tibble(
@@ -60,7 +60,7 @@ l04 <- tibble(
   topics = "Hadoop Streaming",
   #  lab = "Run the \"Hello World\" of Hadoop, the word count using Hadoop Streaming",
   lab = "",
-  paper = "TBD",
+  paper = "Ghemawat et al - 2003 - The Google File System",
   reading = "Bengfort & Kim: Ch. 3",
   notes = "**A2 (Hadoop Streaming) & Q2 released** due Feb-19"
 )
