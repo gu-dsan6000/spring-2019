@@ -60,7 +60,7 @@ l04 <- tibble(
   topics = "Hadoop Streaming",
   #  lab = "Run the \"Hello World\" of Hadoop, the word count using Hadoop Streaming",
   lab = "",
-  paper = "Ghemawat et al - 2003 - The Google File System",
+  paper = "<ul><li>Ghemawat et al - 2003 - The Google File System</li><li>Gartner - Magic Quadrant for Cloud Infrastructure as a Servce, Worldwide - May 2018</li></ul>",
   reading = "Bengfort & Kim: Ch. 3",
   notes = "**A2 (Hadoop Streaming) & Q2 released** due Feb-19"
 )
@@ -69,7 +69,7 @@ l04 <- tibble(
 l05 <-  tibble(
   #  title = "Database Systems",
   topics = "Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift",
-  paper = "TBD",
+  paper = "<ul><li>Dean, Ghemawat - 2004 - MapReduce Simplified Data Processing on Large Clusters</li><li>Vavilapalli et al. - 2013 - Apache Hadoop YARN</li></ul>",
   lab = "",
   #     lab = "TBD",
   reading = "",
@@ -81,7 +81,7 @@ l06 <- tibble(
   #  title = "Higher Level APIs",
   topics = "SQL Review. Pig and Hive",
   #  lab = "Store a dataset in a Hive table, Run and example Pig job",
-  paper = "TBD",
+  paper = "Sonebraker et al. - 2010 - MapReduce and Parallel DBMSs friends or foes",
   lab = "",
   reading = "Bengfort & Kim: Ch. 6,8",
   notes = "**A2 (Hadoop Streaming) & Q2 due today**, **A3 (Hive/Pig) & Q3 released** due Mar-11, Marck teaches, Irina is out."

@@ -1,5 +1,5 @@
-**This syllabus is effective as of Monday, January 28, 2019 at 09:44
-AM**
+**This syllabus is effective as of Monday, January 28, 2019 at 12:30
+PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
 
@@ -251,22 +251,77 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Class | Date       | Topics                                                                                                       | Lab                                                                        | Paper                                                             | Reading                             | Notes                                                                                                              |
-| ----: | :--------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- | :---------------------------------------------------------------- | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-|     1 | Wed Jan-09 | Course Overview, Big Data, Cloud Computing                                                                   |                                                                            |                                                                   |                                     |                                                                                                                    |
-|     2 | Mon Jan-14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review                     | [Setting Up](https://github.com/bigdatateaching/lab-setting-up)            |                                                                   |                                     |                                                                                                                    |
-|     3 | Mon Jan-28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model                     | [Hadoop, HDFS, EMR](https://github.com/bigdatateaching/lab-amazonemr-hdfs) | Jin, Wah, et al. Significance and Challenges of Big Data Research | Bengfort & Kim: Chapter 2           | **A1 (Python script) & Q1 released** due Feb-11                                                                    |
-|     4 | Mon Feb-04 | Hadoop Streaming                                                                                             |                                                                            | Ghemawat et al - 2003 - The Google File System                    | Bengfort & Kim: Ch. 3               | **A2 (Hadoop Streaming) & Q2 released** due Feb-19                                                                 |
-|     5 | Mon Feb-11 | Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |                                                                            | TBD                                                               |                                     | **Q1 due today**, Irina teaches, Marck is out.                                                                     |
-|     6 | Tue Feb-19 | SQL Review. Pig and Hive                                                                                     |                                                                            | TBD                                                               | Bengfort & Kim: Ch. 6,8             | **A2 (Hadoop Streaming) & Q2 due today**, **A3 (Hive/Pig) & Q3 released** due Mar-11, Marck teaches, Irina is out. |
-|     7 | Mon Feb-25 | Spark introduction, Resilient Distributed Datasets, PySpark                                                  |                                                                            | TBD                                                               | Chambers & Zaharia: Ch. 1-3, 12, 32 | **A4 (RDD) released** due Mar-18                                                                                   |
-|     8 | Mon Mar-11 | Spark DataFrames, SparkSQL                                                                                   |                                                                            | TBD                                                               | Chambers & Zaharia: Ch. 10          | **A3 (Hive/Pig) & Q3 due today**, **Q4 released** due Mar-25                                                       |
-|     9 | Mon Mar-18 | SparkML, Issues with ML algorithms on large datasets                                                         |                                                                            | TBD                                                               | Chambers & Zaharia: Ch. 24, 25      | **A4 (RDD) due today**                                                                                             |
-|    10 | Mon Mar-25 | Spark Streaming, GraphX API                                                                                  |                                                                            | TBD                                                               | Chambers & Zaharia: Ch. 20, 21, 30  | **A5 & Q5 released** due Apr-8                                                                                     |
-|    11 | Mon Apr-01 | NoSQL                                                                                                        |                                                                            |                                                                   |                                     | **Mini project released, due Friday Apr-26**                                                                       |
-|    12 | Mon Apr-08 | Other topics TBD                                                                                             |                                                                            | TBD                                                               |                                     | **A5 & Q5 due today**                                                                                              |
-|    13 | Mon Apr-15 | Other topics TBD                                                                                             |                                                                            | TBD                                                               |                                     |                                                                                                                    |
-|    14 | Mon Apr-29 | Guest speaker. Wrap Up                                                                                       |                                                                            | TBD                                                               |                                     | **Q6 in class closed book**                                                                                        |
+| Class | Date       | Topics                                                                                   | Lab                                                                        | Paper                                                             | Reading                   | Notes                                           |
+| ----: | :--------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- | :---------------------------------------------------------------- | :------------------------ | :---------------------------------------------- |
+|     1 | Wed Jan-09 | Course Overview, Big Data, Cloud Computing                                               |                                                                            |                                                                   |                           |                                                 |
+|     2 | Mon Jan-14 | Cloud Computing providers: AWS and Azure, IAAS, PAAS and SAAS, Linux/Command Line review | [Setting Up](https://github.com/bigdatateaching/lab-setting-up)            |                                                                   |                           |                                                 |
+|     3 | Mon Jan-28 | Distributed computing, HPC, Hadoop, Distributed filesystems, MapReduce programming model | [Hadoop, HDFS, EMR](https://github.com/bigdatateaching/lab-amazonemr-hdfs) | Jin, Wah, et al. Significance and Challenges of Big Data Research | Bengfort & Kim: Chapter 2 | **A1 (Python script) & Q1 released** due Feb-11 |
+
+| 4|Mon Feb-04 |Hadoop Streaming | |
+
+<ul>
+
+<li>
+
+Ghemawat et al - 2003 - The Google File System
+
+</li>
+
+<li>
+
+Gartner - Magic Quadrant for Cloud Infrastructure as a Servce, Worldwide
+- May 2018
+
+</li>
+
+</ul>
+
+|Bengfort & Kim: Ch. 3 |**A2 (Hadoop Streaming) & Q2 released** due
+Feb-19 | | 5|Mon Feb-11 |Overview of scalable database systems,
+Massively Parallel Processing databases, Neteeza, Greenplum, RedShift |
+|
+
+<ul>
+
+<li>
+
+Dean, Ghemawat - 2004 - MapReduce Simplified Data Processing on Large
+Clusters
+
+</li>
+
+<li>
+
+Vavilapalli et al. - 2013 - Apache Hadoop
+YARN
+
+</li>
+
+</ul>
+
+``` 
+  |                                    |**Q1 due today**, Irina teaches, Marck is out.                                                                     |
+```
+
+    6|Tue Feb-19 |SQL Review. Pig and Hive | |Sonebraker et al. - 2010 -
+MapReduce and Parallel DBMSs friends or foes |Bengfort & Kim: Ch. 6,8
+|**A2 (Hadoop Streaming) & Q2 due today**, **A3 (Hive/Pig) & Q3
+released** due Mar-11, Marck teaches, Irina is out. |  
+    7|Mon Feb-25 |Spark introduction, Resilient Distributed Datasets,
+PySpark | |TBD |Chambers & Zaharia: Ch. 1-3, 12, 32 |**A4 (RDD)
+released** due Mar-18 |  
+    8|Mon Mar-11 |Spark DataFrames, SparkSQL | |TBD |Chambers & Zaharia:
+Ch. 10 |**A3 (Hive/Pig) & Q3 due today**, **Q4 released** due Mar-25 |  
+    9|Mon Mar-18 |SparkML, Issues with ML algorithms on large datasets |
+|TBD |Chambers & Zaharia: Ch. 24, 25 |**A4 (RDD) due today** |  
+   10|Mon Mar-25 |Spark Streaming, GraphX API | |TBD |Chambers &
+Zaharia: Ch. 20, 21, 30 |**A5 & Q5 released** due Apr-8 |  
+   11|Mon Apr-01 |NoSQL | | | |**Mini project released, due Friday
+Apr-26** |  
+   12|Mon Apr-08 |Other topics TBD | |TBD | |**A5 & Q5 due today** |  
+   13|Mon Apr-15 |Other topics TBD | |TBD | | |  
+   14|Mon Apr-29 |Guest speaker. Wrap Up | |TBD | |**Q6 in class closed
+book** |
 
 **Class will not meet on Jan 21 (MLK Holiday), Feb 18 (President’s Day),
 Mar 04 (Spring Break), Apr 22 (Easter Break).**
