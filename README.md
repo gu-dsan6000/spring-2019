@@ -1,4 +1,4 @@
-**This syllabus is effective as of Monday, February 25, 2019 at 4:57
+**This syllabus is effective as of Monday, March 11, 2019 at 6:30
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
@@ -259,10 +259,10 @@ advance.
 | 4|Mon Feb-04 |Hadoop Streaming | [Hadoop Streaming](https://github.com/bigdatateaching/lab-hadoop-streaming) |Ghemawat et al - 2003 - The Google File System<br/><br/>Gartner - Magic Quadrant for Cloud Infrastructure as a Servce, Worldwide - May 2018|Bengfort & Kim: Ch. 3 |**A2 (Hadoop Streaming) & Q2 released** due Feb-19 | 
 | 5|Mon Feb-11 |Overview of scalable database systems, Massively Parallel Processing databases, Neteeza, Greenplum, RedShift | |Dean, Ghemawat - 2004 - MapReduce Simplified Data Processing on Large Clusters<br/><br/>Vavilapalli et al. - 2013 - Apache Hadoop YARN|    |**A1 (Python script) & Q1 due today**<br/><br/> Irina teaches, Marck is out. |
 |    6|Tue Feb-19 |Pig and Hive | [Pig & Hive](https://github.com/bigdatateaching/lab-pig-hive) |Stonebraker et al. - 2010 - MapReduce and Parallel DBMSs friends or foes |Bengfort & Kim: Ch. 6,8|**A2 (Hadoop Streaming) & Q2 due today**<br/><br/> **A3 (Hive/Pig) & Q3 released** due Mar-11 |  
-|   7|Mon Feb-25 |Spark introduction, Resilient Distributed Datasets, PySpark |[Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd) |Thusoo et al. - Hive-A Petabyte Scale Data Warehouse Using Hadoop |Chambers & Zaharia: Ch. 1-3, 12, 32 |**A4 (RDD) released by Mar-1** due Mar-18 |  
-|    8|Mon Mar-11 |Spark DataFrames, SparkSQL | |Zaharia et al. - 2016 - Apache Spark A Unified Engine |Chambers & Zaharia: Ch. 10 |**A3 (Hive/Pig) & Q3 due today**<br/><br/> **Q4 released** due Mar-25 |  
-| 9|Mon Mar-18 |SparkML, Issues with ML algorithms on large datasets | |TBD |Chambers & Zaharia: Ch. 24, 25 |**A4 (RDD) due today** |  
-| 10|Mon Mar-25 |Spark Streaming, GraphX API | |TBD |Chambers & Zaharia: Ch. 20, 21, 30 |**A5 & Q5 released** due Apr-8 |  
+|   7|Mon Feb-25 |Spark introduction, Resilient Distributed Datasets, PySpark |[Intro to Spark](https://github.com/bigdatateaching/lab-intro-spark-rdd) |Thusoo et al. - Hive-A Petabyte Scale Data Warehouse Using Hadoop |Chambers & Zaharia: Ch. 1-3, 12, 32 | |  
+|    8|Mon Mar-11 |Spark DataFrames, SparkSQL | [DataFrame API and Spark SQL](https://github.com/bigdatateaching/lab-spark-sql) |Zaharia et al. - 2016 - Apache Spark A Unified Engine |Chambers & Zaharia: Ch. 10 |**A3 (Hive/Pig) & Q3 due today**<br/><br/> **Q4  & A4 (Spark) released** due Mar-25 |  
+| 9|Mon Mar-18 |SparkML, Issues with ML algorithms on large datasets | |TBD |Chambers & Zaharia: Ch. 24, 25 ||  
+| 10|Mon Mar-25 |Spark Streaming, GraphX API | |TBD |Chambers & Zaharia: Ch. 20, 21, 30 |**A4 (Spark) due today** <br/><br/> **A5 & Q5 released** due Apr-8 |  
 |   11|Mon Apr-01 |NoSQL | | | |**Mini project released, due Friday Apr-26** |  
 |   12|Mon Apr-08 |Other topics TBD | |TBD | |**A5 & Q5 due today** |  
 |  13|Mon Apr-15 |Other topics TBD | |TBD | | |  
