@@ -1,4 +1,4 @@
-**This syllabus is effective as of Frida, March 22, 2019 at 12:00
+**This syllabus is effective as of Monday, March 25, 2019 at 7:00
 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
