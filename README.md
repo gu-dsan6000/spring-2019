@@ -1,5 +1,4 @@
-**This syllabus is effective as of Monday, March 25, 2019 at 7:00
-PM**
+**This syllabus is effective as of Tuesday, March 26, 2019 at 5:30 PM**
 
 # ANLY502 - Massive Data Fundamentals <br/> Georgetown University <br/> Spring 2019
 
@@ -264,7 +263,7 @@ advance.
 | 9|Mon Mar-18 |SparkML, intro to GraphX | [Machine Learning with Spark](https://github.com/bigdatateaching/lab-machine-learning-with-spark)| Armbrust et al. - 2015 - Spark SQL Relational Data Processing in Spark |Chambers & Zaharia: Ch. 24, 25 ||  
 | 10|Mon Mar-25 |Spark Streaming | [Spark Streaming](https://github.com/bigdatateaching/lab-spark-streaming) |  |  | **A4 (Spark) due Wed Mar-27** <br/><br/> **A5 & Q5 released Wed Mar-27** due Wed Apr-10 |  
 |   11|Mon Apr-01 |NoSQL | GraphX | Two papers:<br/><br/>Zaharia et al. - 2013 - Discretized streams <br/><br/>Gonzalez et al. - GraphX Graph Processing in a Distributed Dataflow Framework (group 9)|Chambers & Zaharia: Ch. 20, 21, 30 | |**Mini project released, due Friday Apr-26** |  
-|   12|Mon Apr-08 |Other topics TBD | TBD |TBD | |**A5 & Q5 due Wed Apr-10** |  
+|   12|Mon Apr-08 |Other topics TBD | TBD | Brewer, Eric - 2012 - CAP Twelve Years Later | |**A5 & Q5 due Wed Apr-10** |  
 |  13|Mon Apr-15 |Other topics TBD | TBD |TBD | | |  
 |   14|Mon Apr-29 |Guest speaker. Wrap Up | | | |**Q6 in class closed book** |
 
