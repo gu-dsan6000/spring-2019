@@ -82,12 +82,6 @@ you need a refresher or are new to the topics of git, the command line,
 and SQL.
 
   - [git - the simple guide](http://rogerdudler.github.io/git-guide/)
-  - [DataCamp: Introduction to Git for Data
-    Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
-  - [DataCamp: Introduction to Shell for Data
-    Science](https://www.datacamp.com/courses/introduction-to-shell-for-data-science)
-  - [DataCamp: Introduction to SQL for Data
-    Science](https://www.datacamp.com/courses/intro-to-sql-for-data-science)
 
 # Books, Software and Cloud Resources
 
@@ -122,11 +116,6 @@ You will be using cloud resources on [Microsoft
 Azure](https://azure.microsoft.com/en-us/) and [Amazon Web
 Services](http://aws.amazon.com). We will discuss how to setup your
 account and environment in the first class session.
-
-## DataCamp
-
-All students in the course will have access to 6 months of all DataCamp
-courses. More details will be provided in class.
 
 ## **Required For Windows Users Only**
 
